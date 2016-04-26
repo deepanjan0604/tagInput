@@ -1,0 +1,27 @@
+<html>
+
+<head>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous"></link>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+  <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" rel="stylesheet" crossorigin="anonymous"></link>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+<link href="taginput.css" rel="stylesheet"></link>
+  <script src="tag-input.js"></script>
+</head>
+
+<body ng-app="tag-input">
+  <div>
+    <br><br><br>
+    <div ng-controller='FormCtrl'>
+
+      <h4>tagging directive using angularjs</h4>
+      <!--<div class='dh-tag-ctn'><div class="input-tag">
+    {{jsonArray}}</div></div><br>-->
+      <dh-tag autocomplete='users' taglist='list1' placeholder='Start typing here....'></dh-tag>
+    </div>
+  </div>
+</body>
+</html>
